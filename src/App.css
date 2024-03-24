@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.history-Container {
+  display: flex;
+
+  flex-direction: row;
+  padding: 10px;
+  color: white;
+  background-color: blue;
+}
+
+.search-Container {
+  margin-left: 20%;
+}
+
+.search-image {
+  padding-top: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.history-image {
+  margin-left: 20%;
+}
+
+.input-Element {
+  width: 400px;
+}
+
+.items-Container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+}
+
+.items-contain {
+  margin-bottom: 2px;
+  display: flex;
+  flex-direction: row;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.img-url {
+  width: 20px;
+  height: 20px;
+  margin-top: 28px;
+}
+
+.time {
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.titel-Element {
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-top: 25px;
+}
+
+.domain-Url {
+  color: rgb(124, 119, 119);
+  margin-top: 25px;
+}
+
+.delete-Button {
+  display: flex;
+  flex-direction: row;
+  margin-left: 400px;
+  height: 30px;
+  width: 30px;
+  justify-content: center;
+  margin-top: 25px;
+}
